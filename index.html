@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>My Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="Styles/styles.css" rel="stylesheet" type="text/css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <a id="top"></a>
+  <nav class="navbar fixed-top">
+    <div class="logo">
+      <a href="#myPage">
+        <img src="Imgs/logo2.png" alt="">
+      </a>
+    </div>
+    <div>
+      <ul class="">
+        <li>
+          <a href="#top">HOME</a>
+        </li>
+        <li class="">
+          <a class="" href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Banner -->
+  <div class="hero-image"></div>
+  <div class="hero-text">
+    <h1>Hello, I'm Conner Christiansen.<br>
+      I'm a full-stack developer.</h1>
+    <a href="#contact"><button>Contact Me</button></a>
+  </div>
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <h1 class="h1-black text-center">ABOUT ME</h1>
+    <div class="row slideanim">
+      <br><br>
+      <div class="col-sm-6">
+        <p>My name is Conner Christiansen, I’m a student in the Web and User Experience major at Weber State
+          University. I love creating websites that are responsive, minimal, and user friendly. I built my web
+          portfolio from the ground up using what I have gained through my major at Weber State University. I also have
+          some basic knowledge in backend languages such as C++, Java, MySQL, and much more.</p>
+
+        <p>When I’m not working on debugging code or designing something, I like to hang out with friends, go on
+          drives, sleep, work on my truck, or just play some video games.</p>
+        <a href="https://drive.google.com/file/d/1r-VUGy7vdXaX_OpUzRFhpTNIfR9HMQLJ/view?usp=sharing"
+          target="_blank"><button class="btn btn-primary btn-lg btn-success">My
+            Resume</button></a>
+      </div>
+      <div class="col-sm-6">
+        <img src="Imgs/default_bio_600x600.jpg" alt="Conner Christiansen" class="pic-me img-fluid">
+      </div>
+    </div>
+  </div>
+
+
+  <div id="about" class="container-fluid bg-grey">
+    <h1 class="h1-black text-center textWhite">SKILLS</h1>
+
+    <div class="row slideanim">
+
+      <div class="col-sm-6">
+        <h2 class="text-center textWhite">Languages</h2>
+
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">HTML</div>
+              <div class="col-sm-6 text-right skill-percent">100%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">CSS</div>
+              <div class="col-sm-6 text-right skill-percent">100%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="50"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">JavaScript</div>
+              <div class="col-sm-6 text-right skill-percent">95%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">MongoDB</div>
+              <div class="col-sm-6 text-right skill-percent">80%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Angular</div>
+              <div class="col-sm-6 text-right skill-percent">80%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Express</div>
+              <div class="col-sm-6 text-right skill-percent">80%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">NodeJs</div>
+              <div class="col-sm-6 text-right skill-percent">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <h2 class="text-center textWhite">Software</h2>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Adobe Photoshop</div>
+              <div class="col-sm-6 text-right skill-percent">95%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Adobe Illustrator</div>
+              <div class="col-sm-6 text-right skill-percent">100%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="50"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Adobe InDesign</div>
+              <div class="col-sm-6 text-right skill-percent">95%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Adobe Premiere Pro</div>
+              <div class="col-sm-6 text-right skill-percent">80%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Adobe After Affects</div>
+              <div class="col-sm-6 text-right skill-percent">75%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Microsort Suite</div>
+              <div class="col-sm-6 text-right skill-percent">100%</div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="row">
+              <div class="col-sm-6 text-left skill-title">Wordpress</div>
+              <div class="col-sm-6 text-right skill-percent">50%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (project section) -->
+  <div id="portfolio" class="container-fluid text-center">
+    <h1 class="h1-black">PROJECTS</h1>
+    <br>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/lights.jpg" data-toggle="modal" data-target="#p1">
+            <img src="Imgs/driveways_and_patching/pic1_539_293.jpg" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>Asphalt Driveways and Patching</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="p1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Asphalt Driveways and Patching</h4>
+            </div>
+            <div class="modal-body">
+              <img src="Imgs/driveways_and_patching/pic1_539_293.jpg" alt="Lights" style="width:100%">
+              <br><br>
+              <p class="text-left">This website was created for my capstone class. I chose a design from 99designs
+                that i
+                thought needed the most help in updating its look. In order to create this website I used HTML, CSS,
+                with the
+                help of bootstrap. Javascript was also added for animations in the website.</p>
+
+              <p class="text-left">Everything was coded by me. However, the colors and design of the webpage was
+                requested
+                by the company who put their contest on 99design's website. They provided their business card with their
+                colors and an example website with a design they liked.</p>
+
+              <p class="text-left">All pictures used in the design of this website came from the companies already
+                existing
+                website. Hero image was found on pexels.</p>
+              <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View
+                Live</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/nature.jpg" data-toggle="modal" data-target="#p2">
+            <img src="Imgs/project2/Christiansen%20FB1_thumbnail.jpg" alt="Nature" style="width:100%">
+            <div class="caption">
+              <p>Facebook Cover Ads</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="p2" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Facebook Cover Ads</h4>
+            </div>
+            <div class="modal-body">
+              <img src="Imgs/project2/Christiansen%20FB1_thumbnail.jpg" alt="Nature" style="width:100%">
+              <br><br>
+              <p class="text-left">These Facebook covers were created as part of one of my projects in school. The
+                objective
+                was to create three seperate covers each with their own objective. The first was to create a Facebook
+                cover
+                promoting an event. Second Facebook cover was to promote a charity orginization. Finally, the third
+                Facebook
+                cover was entirely up to the student. I decided to choose a quote that was said by a professional
+                drifter.</p>
+              <p class="text-left">In order to create these Facebook covers, I use Adobe InDesign to do everything
+                from text
+                formating and sizing to image effects.. I then used Adobe Photoshop to edit the images so they are web
+                ready.
+              </p>
+              <p class="text-left">All pictures were found on pexel's website.</p>
+              <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View
+                Live</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/fjords.jpg" data-toggle="modal" data-target="#p3">
+            <img src="Imgs/project3/flyer_thumbnail.jpg" alt="Fjords" style="width:100%">
+            <div class="caption">
+              <p>Quickplate Flyer</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="p3" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Quickplate Flyer</h4>
+          </div>
+          <div class="modal-body">
+            <img src="Imgs/project3/flyer_thumbnail.jpg" alt="Fjords" style="width:100%">
+            <br><br>
+            <p class="text-left">This flyer is one of my projects I completed for school. The objective was to create
+              a flyer for Quickplate. Given to me was all the text and info they wanted to be included somewhere on the
+              flyer.</p>
+            <p class="text-left">Everything design wise was entirely up to me as long as it had the information that
+              was required somewhere on the flyer. Everything was done using Adobe InDesign.</p>
+            <p class="text-left">The picture was found on pexel's website.</p>
+            <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View
+              Live</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/lights.jpg" data-toggle="modal" data-target="#p4">
+            <img src="Imgs/project4/ad_thumbnail.jpg" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>U break I Fix Marketing Card</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="p4" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">U break I Fix Marketing Card</h4>
+            </div>
+            <div class="modal-body">
+              <img src="Imgs/project4/ad_thumbnail.jpg" alt="Lights" style="width:100%">
+              <br><br>
+              <p class="text-left">This marketing card was created for a project while I was in school. The guidelines
+                to the card were to creating some kind of marketing card following specific formating guidelines. We had
+                to list what the company offers and had to include their address with a postage stamp.</p>
+
+              <p class="text-left">Other than those guidelines, the design of the card was up to me. I chose the
+                location of items, picture selection, and the colors. I did everything using Adobe InDesign.</p>
+
+              <p class="text-left">The picture was found on the companies existing website.</p>
+              <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View
+                Live</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/nature.jpg" data-toggle="modal" data-target="#p5">
+            <img src="Imgs/project5/Highmark_thumbnail.jpg" alt="Nature" style="width:100%">
+            <div class="caption">
+              <p>Highmark Charter School Website</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="p5" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Highmark Charter School Website</h4>
+            </div>
+            <div class="modal-body">
+              <img src="Imgs/project5/Highmark_thumbnail.jpg" alt="Nature" style="width:100%">
+              <br>
+              <p class="text-left">This website was created for one of my final projects while I was in school. The
+                goal of
+                the project was to find a local website in my community and recreate it and make it more up to todays
+                standards. Everything design related was up to me. This project was created using wix.</p>
+
+              <p class="text-left">All information and some pictures were from the schools existing website. The
+                remaining
+                photos came from pexels.</p>
+              <a href="https://christiansenconner.wixsite.com/mysite" target="_blank"
+                class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View Live</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/w3images/fjords.jpg" data-toggle="modal" data-target="#p6">
+            <img src="Imgs/project6/page1_thumbnail.jpg" alt="Fjords" style="width:100%">
+            <div class="caption">
+              <p>Moab Utah Travel Guide</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="p6" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Moab Utah Travel Guide</h4>
+          </div>
+          <div class="modal-body">
+            <img src="Imgs/project6/page1_thumbnail.jpg" alt="Fjords" style="width:100%">
+            <br>
+            <p class="text-left">This travel guide was created as a final project while I was in school. I was able to
+              choose the location of where I wanted the travel guide to be. As well as choose the layout and content on
+              each
+              of the pages.</p>
+
+            <p class="text-left">This was all done by me using Adobe InDesign. All the pictures were found on Utah's
+              official website and pexels.</p>
+            <a href="#" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View
+              Live</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h1 class="h1-black text-center textWhite">CONTACT ME</h1>
+    <div class="row slideanim">
+      <div class="col-sm"></div>
+      <div class="col-sm">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control input-lg" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Message..."></textarea>
+          </div>
+          <input class="btn btn-primary btn-lg btn-success" type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="col-sm"></div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center bg-dark-grey">
+
+    <div class="row social-footer">
+      <div class="col align-self-start"></div>
+      <div class="col align-self-center">
+        <a class="navbar-center" href="#myPage"><img src="Imgs/logo.png" title="Conner Christiansen"
+            class="logo-small-nav" alt="Conner Christiansen"></a>
+      </div>
+      <div class="col align-self-end"></div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col-sm"></div>
+      <div class="col-sm">
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+      </div>
+      <div class="col-sm"></div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col align-self-start"></div>
+      <p class="col align-self-center text-white"> Conner Christiansen &copy;2018</p>
+      <div class="col align-self-end"></div>
+    </div>
+  </footer>
+
+
+
+  <script>
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black-slideIn');
+      }
+      else {
+        $('nav').removeClass('black-slideIn');
+      }
+    });
+
+    /*
+        $('a[href*="#"]').on('click', function (e) {
+          e.preventDefault();
+    
+          $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+          }, 500, 'linear');
+        });
+    */
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar li a, footer a[href='#myPage']").on('click', function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    })
+  </script>
+
+</body>
+
+</html>
